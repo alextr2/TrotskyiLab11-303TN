@@ -1,0 +1,66 @@
+body {
+  background-image: url("images/stars.svg");  
+  background-color: #0b1026;                   
+  color: #f0f0f0;                              
+  margin-left: 15%;                           
+  margin-right: 15%;                          
+  font-family: Georgia, serif;
+  font-style: italic;                          
+  font-size: 18px;                             
+}
+
+h1 {
+  font-weight: bold;      
+  text-align: center;     
+  color: #ffcc33;         
+  font-style: normal;    
+  font-size: 40px;
+}
+
+p {
+  text-indent: 40px;     
+  text-align: justify;    
+  line-height: 1.6;       
+}
+
+.img-left {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;  /* відступ від тексту справа і знизу */
+}
+
+.img-right {
+  float: right;
+  width: 200px;
+  margin: 0 0 10px 20px;  /* відступ від тексту зліва і знизу */
+}
+
+nav {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+nav a {
+  margin: 0 15px;         /* відстань між пунктами меню */
+}
+
+
+a:link {
+  color: #4fc3f7;           
+  text-decoration: none;    
+}
+
+a:visited {
+  color: #ce93d8;          
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #ff5252;           
+}
+
